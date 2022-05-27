@@ -17,7 +17,18 @@
  <?php include('template/nav.php') //llamamos el menu ?>
 
  <main class="contenedor">
-   <h1>Producto</h1>
+   <h1>ReacJs</h1>
+
+   <div class="camisa">
+      <img class="camisa__imagen" src="img/3.jpg" alt="camisa">
+      <div class="camisa__contenido">
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+           Adipisci consequatur dolor consectetur asperiores? Nam dolorem, 
+           neque mollitia quibusdam repudiandae ab blanditiis provident quis pariatur, 
+           reprehenderit error perferendis? Veritatis, doloremque. Sapiente.</p>
+      </div>
+   </div>
+
  </main>
   
  <?php include('template/footer.php') //llamamos al footer ?>

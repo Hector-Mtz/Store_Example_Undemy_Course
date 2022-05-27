@@ -18,7 +18,67 @@
 
  <main class="contenedor">
    <h1>Nosotros</h1>
+   <div class="nosotros">
+      <div class="nosotros__contenido">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus 
+           corrupti libero odit maxime, sequi provident labore impedit 
+           officia nesciunt suscipit quae laudantium.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus 
+           corrupti libero odit maxime, sequi provident labore impedit 
+           officia nesciunt suscipit quae laudantium</p>
+
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus 
+           corrupti libero odit maxime, sequi provident labore impedit 
+           officia nesciunt suscipit quae laudantium.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus 
+           corrupti libero odit maxime, sequi provident labore impedit 
+           officia nesciunt suscipit quae laudantium</p>
+      </div>
+      <img class="nosotros__imagen" src="img/nosotros.jpg" alt="nosotros">
+   </div>
  </main>
+
+ <section class="contenedor comprar">
+    <h2 class="comprar__titulo">¿Porqué comprar con nosotros?</h2>
+    <div class="bloques">
+      <!--bloque-->
+       <div class="bloque">
+          <img class="bloque__imagen" src="img/icono_1.png" alt="icono1">
+          <h3 class="bloque_titulo">El mejor precio.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus </p>
+       </div>
+      <!--end bloque-->
+       <!--bloque-->
+       <div class="bloque">
+          <img class="bloque__imagen" src="img/icono_2.png" alt="icono2">
+          <h3 class="bloque_titulo">Para DEVS.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus </p>
+       </div>
+      <!--end bloque-->
+       <!--bloque-->
+       <div class="bloque">
+          <img class="bloque__imagen" src="img/icono_3.png" alt="icono3">
+          <h3 class="bloque_titulo">Envío gratis.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus </p>
+       </div>
+      <!--end bloque-->
+       <!--bloque-->
+       <div class="bloque">
+          <img class="bloque__imagen" src="img/icono_4.png" alt="icono4">
+          <h3 class="bloque_titulo">La mejor calidad.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Nihil animi quia eaque dolores ut autem rem voluptatibus </p>
+       </div>
+      <!--end bloque-->
+    </div>
+ </section>
   
  <?php include('template/footer.php') //llamamos al footer ?>
 
