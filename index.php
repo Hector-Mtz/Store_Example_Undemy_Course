@@ -41,8 +41,148 @@
  <?php include('template/header.php') //llamamos el header ?>
 
  <?php include('template/nav.php') //llamamos el menu ?>
+
+ <main class="contenedor">
+   <h1>Nuestros productos</h1>
+   <div class="grid">
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/1.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">VueJs</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/2.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">Agular</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/3.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">ReacNative</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/4.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">Redux</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/5.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">NodeJs</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/6.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">SASS</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/7.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">HTML5</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/8.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">GtiHub</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/9.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">BulmaCSS</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/10.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">TypeScript</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/11.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">Drupal</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/12.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">JavaScript</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/13.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">GraphQL</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+       <div class="producto"> <!--inicio producto-->
+           <a href="producto.php">
+               <img class="producto__imagen" src="img/14.jpg" alt="imagen camisa">
+               <div class="producto__informacion">
+                   <p class="producto__nombre">Wordpress</p>
+                   <p class="producto__precio">$25</p>
+               </div>
+           </a>
+       </div><!--fin producto-->
+
+       <div class="grafico grafico--camisas">
+
+       </div>
+       
+       <div class="grafico grafico--node">
+
+       </div>
+   </div>
+ </main>
   
  <?php include('template/footer.php') //llamamos al footer ?>
- 
+
 </body>
 </html>
