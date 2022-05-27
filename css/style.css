@@ -1,0 +1,67 @@
+/*custom properties, son como variables, 
+valores que se pueden reutilizar y si hay cambios solo se cambian en esta parte*/
+:root{ 
+/*Definimos los colores que usaremos*/
+  --primario: #9C27B0;
+  --primarioOscuro: #89119D;
+  --secundario: #FFCE00;
+  --secundarioOscuri: rgb(233,287,2);
+  --blanco:#FFF;
+  --negro:#0000;
+/*Definimos propiedades*/
+  --fuentePrincipal: 'Staatliches', cursive;
+}
+
+/*Definimos propiedades globales*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before, *:after{ /*Segmento universal*/
+box-sizing: inherit;
+}
+
+body{
+    background-color:var(--primario); /*Asignamos el valor que predefinomos al inicio*/
+    font-size: 1.6rem; /*16px*/
+    line-height: 1.5; /*inertlineado basado en la base de la fuente*/
+}
+
+p{
+        font-size: 1.8rem;
+        font-family:Arial, Helvetica, sans-serif;
+        color: var(--blanco);
+}
+
+a{
+    text-decoration: none; /*quitamos estilos de texto a los enlaces */
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto; /*CENTRADO DE CONTENIDO*/
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--secundario);
+    font-family:var(--fuentePrincipal);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
