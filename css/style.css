@@ -5,7 +5,7 @@ valores que se pueden reutilizar y si hay cambios solo se cambian en esta parte*
   --primario: #9C27B0;
   --primarioOscuro: #89119D;
   --secundario: #FFCE00;
-  --secundarioOscuri: rgb(233,287,2);
+  --secundarioOscur0: rgb(233,287,2);
   --blanco:#FFF;
   --negro:#0000;
 /*Definimos propiedades*/
@@ -136,11 +136,12 @@ h3{
   padding: 1rem;
 }
 
+/*
 .producto__imagen{
    padding: 1rem;
    width: 100%;
 }
-
+*/
 .producto__informacion{
 
 }
@@ -238,4 +239,51 @@ h3{
 
  .bloque__imagen{
 
+ }
+
+ /*Pagina del producto*/
+
+ @media(min-width:768px){
+.camisa{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     column-gap: 2rem;
+    }
+ }
+
+ .formulario{
+   display: grid;
+   grid-template-columns: repeat(2,1ref);
+   gap: 2rem;
+ }
+
+ .formulario__campo{
+   /*
+    border-color: var(--primarioOscuro);
+    border-width: 1rem;
+    border-style: solid;
+   */
+    border: 1rem solid var(--primarioOscuro);
+    background-color: var(--primario);
+    color: var(--blanco);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    appearance: none;
+ }
+
+ .formulario__submit{
+     background-color: var(--secundario);
+     border: none;
+     font-size: 2rem;
+     font-family: var(--fuentePrincipal);
+     padding: 2rem;
+     transition: background-color .3s ease;
+     grid-column: 1/3;
+ }
+
+ .formulario__submit:hover{
+  font-size: 2.4rem;
+   cursor: pointer;
+   background-color: var(--secundarioOscur0);
  }
